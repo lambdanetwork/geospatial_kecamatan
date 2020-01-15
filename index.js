@@ -1,4 +1,3 @@
-const fs = require('fs')
 const Geo = require('geo-nearby');
 let arr = require('./data/kecamatan')
 let dataSet = Geo.createCompactSet(arr);
